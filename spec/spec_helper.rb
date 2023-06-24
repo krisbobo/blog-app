@@ -88,4 +88,5 @@ RSpec.configure do |config|
 #   # Setting this allows you to use `--seed` to deterministically reproduce
 #   # test failures related to randomization by passing the same `--seed` value
 #   # as the one that triggered the failure.
+
 end
