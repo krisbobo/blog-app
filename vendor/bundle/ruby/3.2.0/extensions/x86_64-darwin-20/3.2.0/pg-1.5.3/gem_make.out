@@ -26,10 +26,10 @@ creating extconf.h
 creating Makefile
 
 current directory: /Users/krisbobo/repos/blog-app/vendor/bundle/ruby/3.2.0/gems/pg-1.5.3/ext
-make DESTDIR\= sitearchdir\=./.gem.20230624-76358-flgmf8 sitelibdir\=./.gem.20230624-76358-flgmf8 clean
+make DESTDIR\= sitearchdir\=./.gem.20230624-79142-ubudhj sitelibdir\=./.gem.20230624-79142-ubudhj clean
 
 current directory: /Users/krisbobo/repos/blog-app/vendor/bundle/ruby/3.2.0/gems/pg-1.5.3/ext
-make DESTDIR\= sitearchdir\=./.gem.20230624-76358-flgmf8 sitelibdir\=./.gem.20230624-76358-flgmf8
+make DESTDIR\= sitearchdir\=./.gem.20230624-79142-ubudhj sitelibdir\=./.gem.20230624-79142-ubudhj
 compiling gvl_wrappers.c
 In file included from gvl_wrappers.c:6:
 In file included from ./pg.h:60:
@@ -246,9 +246,9 @@ In file included from ./pg.h:60:
 linking shared-object pg_ext.bundle
 
 current directory: /Users/krisbobo/repos/blog-app/vendor/bundle/ruby/3.2.0/gems/pg-1.5.3/ext
-make DESTDIR\= sitearchdir\=./.gem.20230624-76358-flgmf8 sitelibdir\=./.gem.20230624-76358-flgmf8 install
-/usr/bin/install -c -m 0755 pg_ext.bundle ./.gem.20230624-76358-flgmf8
+make DESTDIR\= sitearchdir\=./.gem.20230624-79142-ubudhj sitelibdir\=./.gem.20230624-79142-ubudhj install
+/usr/bin/install -c -m 0755 pg_ext.bundle ./.gem.20230624-79142-ubudhj
 installing pg_ext libraries
 
 current directory: /Users/krisbobo/repos/blog-app/vendor/bundle/ruby/3.2.0/gems/pg-1.5.3/ext
-make DESTDIR\= sitearchdir\=./.gem.20230624-76358-flgmf8 sitelibdir\=./.gem.20230624-76358-flgmf8 clean
+make DESTDIR\= sitearchdir\=./.gem.20230624-79142-ubudhj sitelibdir\=./.gem.20230624-79142-ubudhj clean

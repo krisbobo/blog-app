@@ -3,16 +3,16 @@ current directory: /Users/krisbobo/repos/blog-app/vendor/bundle/ruby/3.2.0/gems/
 creating Makefile
 
 current directory: /Users/krisbobo/repos/blog-app/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.7.5/ext/websocket-driver
-make DESTDIR\= sitearchdir\=./.gem.20230624-76358-kurg04 sitelibdir\=./.gem.20230624-76358-kurg04 clean
+make DESTDIR\= sitearchdir\=./.gem.20230624-79142-381iky sitelibdir\=./.gem.20230624-79142-381iky clean
 
 current directory: /Users/krisbobo/repos/blog-app/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.7.5/ext/websocket-driver
-make DESTDIR\= sitearchdir\=./.gem.20230624-76358-kurg04 sitelibdir\=./.gem.20230624-76358-kurg04
+make DESTDIR\= sitearchdir\=./.gem.20230624-79142-381iky sitelibdir\=./.gem.20230624-79142-381iky
 compiling websocket_mask.c
 linking shared-object websocket_mask.bundle
 
 current directory: /Users/krisbobo/repos/blog-app/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.7.5/ext/websocket-driver
-make DESTDIR\= sitearchdir\=./.gem.20230624-76358-kurg04 sitelibdir\=./.gem.20230624-76358-kurg04 install
-/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20230624-76358-kurg04
+make DESTDIR\= sitearchdir\=./.gem.20230624-79142-381iky sitelibdir\=./.gem.20230624-79142-381iky install
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20230624-79142-381iky
 
 current directory: /Users/krisbobo/repos/blog-app/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.7.5/ext/websocket-driver
-make DESTDIR\= sitearchdir\=./.gem.20230624-76358-kurg04 sitelibdir\=./.gem.20230624-76358-kurg04 clean
+make DESTDIR\= sitearchdir\=./.gem.20230624-79142-381iky sitelibdir\=./.gem.20230624-79142-381iky clean
