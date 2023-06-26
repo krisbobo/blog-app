@@ -48,4 +48,17 @@ RSpec.describe Post, type: :model do
       expect { post.send(:decrement_author_posts_counter) }.to change { user.reload.posts_counter }.by(-1)
     end
   end
+
+  describe '#update_likes_counter' do
+    it 'updates the likes counter' do
+      user = User.create!(name: 'Chris', posts_counter: 0, bio: 'I am a software engineer')
+      post = user.posts.create!(title: 'Post 1', comments_counter: 0, likes_counter: 0)
+      post.send(:update_likes_counter)
+
+      Like.create!(post_id: post.id, author: user)
+      Like.create!(post_id: post.id, author: user)
+
+      expect(post.reload[:likes_counter]).to eq(2)
+    end
+  end
 end
