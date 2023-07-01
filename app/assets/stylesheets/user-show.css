@@ -1,13 +1,10 @@
 body {
-  /* background-color: #fce8e8; */
   font-family: 'Roboto', sans-serif;
 }
 
 #user-details {
   margin: 20px 0 20px 0;
   padding: 10px;
-  /* border: 1px solid #ccc; */
-  /* background-color: #fff8f8; */
 }
 
 .user-description {
