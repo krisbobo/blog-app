@@ -149,9 +149,9 @@ Example command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Setup and Controllers]**
-- [ ] **[Controllers specs]**
-- [ ] **[Views]**
+- [ ] **[Integration specs]**
+- [ ] **[Add devise]**
+- [ ] **[Add authorization rules]**
 
 <p align="right">[<a href="#readme-top">back to top</a>]</p>
 
