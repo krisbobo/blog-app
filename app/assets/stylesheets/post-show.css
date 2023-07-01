@@ -1,0 +1,42 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.post-show-container {
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-over-all {
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+.title-author {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.like-comment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.comment-section {
+  margin: 10px 0 10px 0;
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+.comment-section p {
+  margin-left: 10px;
+  padding-top: 6px;
+}

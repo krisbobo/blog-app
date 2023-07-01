@@ -1,0 +1,91 @@
+body {
+  /* background-color: #fce8e8; */
+  font-family: 'Roboto', sans-serif;
+}
+
+#user-details {
+  margin: 20px 0 20px 0;
+  padding: 10px;
+  /* border: 1px solid #ccc; */
+  /* background-color: #fff8f8; */
+}
+
+.user-description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0 10px 0;
+}
+
+.user-name {
+  border: 1px solid #000;
+  width: 80%;
+  font-size: 20px;
+}
+
+.user-name h6 {
+  margin: 0 0 20px 140px;
+}
+
+.img-div {
+  width: 15%;
+  height: 40%;
+  border: 2px solid #000;
+}
+
+.img {
+  width: 52px;
+  height: 115px;
+  object-fit: cover;
+}
+
+.bio-description {
+  padding: 0 0 0 10px;
+  border: 2px solid #000;
+}
+
+.user-posts {
+  margin: 20px auto;
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+.comment-like {
+  margin-left: 160px;
+}
+
+#user-btn {
+  margin: 20px 0 0 130px;
+  padding: 10px;
+  border: 1px solid #000;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .user-name {
+    width: 80%;
+    padding: 0 0 0 10px;
+  }
+
+  .img {
+    width: 180px;
+    height: 115px;
+    object-fit: cover;
+  }
+
+  .user-name h6 {
+    margin: 0 0 20px 820px;
+  }
+
+  .comment-like {
+    margin-left: 1016px;
+  }
+
+  #user-btn {
+    margin: 20px 0 0 620px;
+    padding: 10px;
+    border: 1px solid #000;
+    text-decoration: none;
+  }
+}
