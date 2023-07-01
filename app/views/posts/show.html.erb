@@ -1,1 +1,24 @@
-<h1>Post for a given user</h1>
+<%= stylesheet_link_tag('post-show')%>
+
+<div class="post-show-container">
+  <div class="title-over-all">
+    <div class="title-container">
+      <div class="title-author">
+        <p> <%= @post.title %></p>
+        <p>by <%= @post.author.name %></p>
+      </div>
+        <div class="like-comment">
+          <p>Comments: <%= @post.comments_counter %></p>
+          <p>Likes: <%= @post.likes_counter %></p>
+        </div>
+    </div>
+    <p><%= @post.text %></p>
+  </div>
+
+  <% @post.recent_comments.each do |comment| %>
+      <div class="comment-section">
+        <h4><%= comment.author.name %>:</h4>
+        <p><%= comment.text %></p>
+      </div>
+  <% end %>
+</div>
