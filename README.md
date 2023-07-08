@@ -63,6 +63,7 @@
 - **[Data Model]**
 - **[Validations and Model specs]**
 - **[Processing data in models]**
+- **[Basic app views]**
 
 <p align="right">[<a href="#readme-top">back to top</a>]</p>
 
