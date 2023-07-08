@@ -1,5 +1,4 @@
 class LikesController < ApplicationController
-  
   def create
     @post = params[:post_id]
     @user = @current_user
