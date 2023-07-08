@@ -1,0 +1,36 @@
+h2 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.form-input {
+  width: 80%;
+  margin: 10px 0 10px 2px;
+  padding: 2px;
+}
+
+.form-input label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.create-btn {
+  width: 20%;
+  margin-left: 61.5%;
+  padding: 5px;
+  background-color: #c42de6;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
