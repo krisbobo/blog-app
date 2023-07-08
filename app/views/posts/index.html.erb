@@ -1,1 +1,30 @@
-<h1>List of all posts</h1>
+<%= stylesheet_link_tag('post-index') %>
+  
+<div class="post-index-container">
+  <div class="user-description">
+    <div class="img-div">
+      <%= image_tag(@user.photo, class: "img") %>
+    </div>
+    <div class="user-name">
+      <h2><%= @user.name %></h2>
+      <h6>Number of posts: <%= @user.posts_counter %></h6>
+    </div>
+  </div>
+
+  <% @posts.each do |post| %>
+  <div class="title-text">
+      <h2><%= link_to post.title, user_post_path(post) %></h2>
+      <p><%= post.text %></p>
+      <div class="comment-count">
+        <span class="comment">Comments: <%= post.comments_counter%></span> <span class="like"span>Likes: <%= post.likes_counter%></span>
+      </div>
+      </div>
+    <% post.recent_comments.each do |comment| %>
+      <div class="comment-section">
+        <h4><%= comment.author.name %></h4>
+        <p><%= comment.text %></p>
+      </div>
+    <% end %>
+  <% end %>
+  </div>
+</div>
