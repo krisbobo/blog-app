@@ -1,0 +1,28 @@
+h3 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.comment_container {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.comment_box {
+  display: block;
+  margin: 10px 0;
+}
+
+.comment_btn {
+  padding: 5px;
+  background-color: #a531f1;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

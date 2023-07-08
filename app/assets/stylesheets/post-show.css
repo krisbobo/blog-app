@@ -40,3 +40,32 @@ body {
   margin-left: 10px;
   padding-top: 6px;
 }
+
+.comment-like-btn {
+  display: flex;
+  align-items: center;
+}
+
+.btn_1 {
+  padding: 5px;
+  background-color: #7a16f4;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn_2 {
+  margin-left: 5px;
+  padding: 5px;
+  background-color: #7a16f4;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.user_link {
+  text-decoration: none;
+  color: #fff;
+}
