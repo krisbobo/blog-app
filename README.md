@@ -71,7 +71,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Not Available]()
+- [Not Yet]()
 
 <p align="right">[<a href="#readme-top">back to top</a>]</p>
 
