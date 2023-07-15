@@ -11,11 +11,11 @@ class UserIndexTest < ApplicationSystemTestCase
   test 'User index page displays the profile picture for each user' do
     visit users_path
 
-    assert_selector "img[src*='https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png']"
-    assert_selector "img[src*='https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png']"
+    assert_selector "img[src*='https://www.google.com/images/branding/googlelogo/2x/goog_color_272x92dp.png']"
+    assert_selector "img[src*='https://www.google.com/images/randng/googlelogo/2x/googlelogo_color_272x92dp.png']"
   end
 
-  test 'User index page displays the number of posts each user has written' do
+  test 'User index page displays the number of posts each user/s has written' do
     visit users_path
 
     assert_text 'Number of posts: 5'
