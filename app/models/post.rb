@@ -14,7 +14,7 @@ class Post < ApplicationRecord
   after_destroy :update_likes_counter
 
   def recent_comments
-    comments.order(created_at: :desc).limit(5)
+    comments.includes(:author).order(created_at: :desc).limit(5)
   end
 
   private
