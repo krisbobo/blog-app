@@ -16,8 +16,8 @@
     </div>
 
   <% @user.recent_posts.each do |post| %>
-    <div class="user-posts">
-    <h3><%= link_to post.title, user_post_path(post) %></h3>
+    <div class="user-post">
+    <h3><%= post.title %></h3>
     <div><%= post.text %></div>
     <div class="comment-like">
       <span class="comment">Comments: <%= post.comments_counter %></span> <span class="like"span>Likes: <%= post.likes_counter %></span>
