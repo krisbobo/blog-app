@@ -1,11 +1,8 @@
 class PostsController < ApplicationController
   def index
-    @posts = Post.all
+    @posts = Post.all.includes(comments: :author)
     @user = User.find_by(id: params[:user_id])
-    author_id = params[:author_id]
-    @posts = @posts.where(author_id:) if author_id.present?
-    @comments = @posts.map(&:recent_comments)
-    @comments = Comment.all
+    @posts = @posts.where(author_id: @user.id) if @user.present?
     render :index
   end
 
